@@ -10,6 +10,10 @@ readme = "README.md"
 repository = "https://github.com/oliverbunting/svfmt"
 default-run = "svfmt"
 description = "SystemVerilog formatter"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+]
 
 [dependencies]
 sv-parser = "*"
