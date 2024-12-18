@@ -1,0 +1,20 @@
+[package]
+name = "svfmt"
+version = "0.1.0"
+edition = "2021"
+authors = ["oliverbunting@gmail.com"]
+keywords = ["SystemVerilog", "Verilog", "format", "svls"]
+categories = ["command-line-utilities"]
+license-file = "LICENSE"
+readme = "README.md"
+repository = "https://github.com/oliverbunting/svfmt"
+default-run = "svfmt"
+description = "SystemVerilog formatter"
+
+[dependencies]
+sv-parser = "*"
+
+# [patch.crates-io]
+# sv-parser = {path = "../sv-parser/sv-parser"}
+
+
